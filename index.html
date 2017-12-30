@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8"/>
+	<title>C5 - Intro to Web Development</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css"/>
+	<link href="css/table.css" rel="stylesheet" type="text/css"/>
+	<link href="css/container.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+	<div class="headerArea">
+	    <div class="className">
+		C5 - Introduction to Web Development
+	    </div>
+	    <div class="headerNavbar">
+		<button id="mainButton">Home</button>
+		<button id="courseInfoButton">Course Information</button>
+		<button id="lessonsButton">Lessons</button>
+		<button id="labsButton">Labs</button>
+		<button id="projectsButton">Projects</button>
+		<button id="quizzesButton">Quizzes and Practice</button>
+		<button id="githubButton">Github</button>
+		<button id="coursePortalButton">course_PORTaL</button>
+	    </div>
+	</div>
+
+	<div class="headerDivider"></div>
+
+	<div class="containerArea" id="main">
+	    <div class="containerTitle">
+		Welcome to the C5 Tutorial Class: Introduction to Web Development!
+	    </div>
+	    <div class="containerBody">
+		<div class="containerMainBody">
+		    In this tutorial class, you will be learning how to develop some simple applications on the web. We have been using these applications whenever we access the internet. For example, we use Google to do our research or we go to Youtube to watch interesting videos uploaded by many users, ranging from music to video games to talk shows.
+		</div>
+		<div class="containerOtherBody">
+		    When you join this class, you will be creating web applications using Node.js. We will be covering the essentials first before we go into tougher concepts such as backend creation and security within the Node.js application.
+		</div>
+	    </div>
+	</div>
+
+	<div class="containerArea" id="courseInfo">
+	    <div class="containerTitle">
+		Course Information
+	    </div>
+	    <div class="containerBody">
+		<div class="containerNavbarBody">
+		    <button id="introButton">Introduction</button>
+		    <button id="enrolmentButton">Enrolment</button>
+		    <button id="scheduleInfoButton">Schedule Information</button>
+		    <button id="gradeSchemeButton">Grading Scheme</button>
+		    <button id="labsInfoButton">Labs Information</button>
+		    <button id="projectsInfoButton">Projects Information</button>
+		    <button id="testInfoButton">Test Information</button>
+		    <button id="githubInfoButton">Github Information</button>
+		    <button id="coursePortalInfoButton">course_PORTaL Information</button>
+		    <button id="futureCoursesInfoButton">Future Courses Information</button>
+		</div>
+
+        <div class="section" id="empty">
+        </div>
+
+		<div class="section" id="intro">
+		    Welcome to the C5 tutorial class: Introduction to Web Development! In this intermediate-leveled tutorial class, you will learn how to develop simple web applications through the use of Node.js. During the 10 weeks in this tutorial course, you will learn the essentials of web development, from how to design a webpage through HTML and CSS to how to develop the backend of your Node.js web application. Of course, although you learn the theory of how to develop such web applications, you will also apply your knowledge and practice how to create web applications. 
+		</div>
+		<div class="section" id="enrolment">
+		    To enroll into the C5 tutorial course, you must send an email to Evan Chen (the tutorial course instructor). His email is evanturtile.chen@gmail.com (evanturtile[dot]chen[at]gmail[dot]com). For the course to be initiated, there must be at least 5 students enrolled into the course with 15 students maximum enrolled into the course. Enrolment into the course will start on January 2nd, 2018 and will end on January 13th, 2018. If you are placed on the waitlist, please keep on checking back with Evan if you are still able to join the class. Please note that there is no fee to enroll into this particular class.
+		</div>
+	        <div class="section" id="scheduleInfo">
+		    The C5 tutorial class will start on January 20, 2018. The classes will be weekly; it will be held every Saturday for 10 weeks at U of T's Robarts Library (in the St. George Campus study rooms) and it will be held at 1 pm in the afternoon until 4 pm (depending on how fast we go, there may be a chance that we can leave early). Usually, each lesson will be divided into two parts: learning the theory and the essential skills, and the coding portion. After the 10th week, there will be a test based on the theory we have learned. All project work given in this tutorial course will be due a week after the test has been given. Please take a look at the lessons page on the course website to check the schedule of the tutorial course.
+		</div>
+		<div class="section" id="gradingScheme">
+		    There will be work distributed throughout this tutorial course's 10 weeks. Among this work, there will be 8 different labs to help guide you along the lessons, 2 projects to help give you an understanding of how to develop applications on the web, and a course-end test that covers all topics taught in the course. Please take a look at the course grading scheme down below. 
+		    <div class="webpageTable">
+			<div class="headerRow">
+                <div class="headerEvalCell">Evaluation</div>
+			    <div class="headerEvalCell">Weight</div>
+			</div>
+			<div class="tableRow">
+			    <div class="tableEvalCell">Labs</div>
+			    <div class="tableEvalCell">3% each (27% total)</div>
+			</div>
+			<div class="tableRow">
+			    <div class="tableEvalCell">Project 1</div>
+			    <div class="tableEvalCell">15%</div>
+			</div>
+			<div class="tableRow">
+			    <div class="tableEvalCell">Project 2</div>
+			    <div class="tableEvalCell">28%</div>
+			</div>
+			<div class="tableRow">
+			    <div class="tableEvalCell">Course-end Test</div>
+			    <div class="tableEvalCell">30%</div>
+			</div>
+		    </div>
+		</div>
+		<div class="section" id="labsInfo">
+		    In this tutorial class, there will be 8 labs in total, with each lab having a weight of 3% of your final mark. Each lab will be given to you at the end of each lesson. It is in your best interest to attempt each lab as they guide you alongside the lessons given to you. Please note that when you hand in your lab, you MUST hand in your work through the Github lab repository that the course instructor gives you. Any work that is present there before the due date will be marked. Any other work uploaded there after the due date will not be marked. Please take a look at the labs page on the course website to have a feel of what labs may be offered. Please note that these labs will be short; usually, you may need to just fill in a few blank spots (such as filling in a function).
+		</div>
+		<div class="section" id="projectsInfo">
+		    In this tutorial class, there will be two projects. These projects help you apply the knowledge and theory you have learned throughout this tutorial class. The first project will be based on lessons and labs of Weeks 1 to 3 (it is mainly based on frontend design) while the second project will be based on lessons and labs of Weeks 4 to 10 (which includes backend implementation, but it will be built up on top of Weeks 1 to 3, which is given). Please note that these two projects have to be very different from each other; you cannot build on from your first project and then pass it off as your second project. Each project should help you apply your knowledge on frontend design and backend implementation and allow you to practice and understand even more. You may recycle SOME ideas from your first project and carry it over to your second project, but you cannot build on top of your first project. Of course, you cannot upload your lab work and call it off as your second project; otherwise, you will receive a mark of 0. These two projects will be due a week after the course-end test (which is in April 2018). The course instructor will give you a few ideas that you can work with for both projects in-class. Just like the labs, you must use Github to upload your work. On the second project, you may work in groups of 2 or 3, and never alone. However, on the first project, you MUST work by yourself as it is just frontend design.
+		</div>
+		<div class="section" id="testInfo">
+		    In this tutorial class, there will be a course-end test you will have to write. It will account a hefty 30% of your final mark in this tutorial class. It will cover all topics taught in this tutorial class. You will be given 120 minutes to write this test; you are allowed to write your own cheat sheet (8 x 11 inches, double sided) and you may bring it to the test. 
+		</div>
+		<div class="section" id="githubInfo">
+			In this tutorial class, you MUST use Github to be able to hand in your work. What is Github? It is a service that allows you to post your work in a "folder" called a repository (which is unique to the work you post into it). You can allow other collaborators to join (those you want to work with) a particular repository, and you can share work with many others. Github acts like a portfolio of sorts for us Computer Scientists and Software/Computer/Electrical/(insert engineering title here) engineers, sort of like art students needing to build up their portfolio containing their art work that they have worked on. You should only upload your work on Github; do NOT send me an email containing a zip folder of your work and do not give me any Dropbox links containing your work. Do not scp your work to me as well... I will only check Github and mark what is inside the repository I have shared with you/the repository you have shared with me.
+		</div>
+		<div class="section" id="coursePortalInfo">
+		    In this tutorial class, we will be using the Course Portal! (The course instructor created it from bottom up, for your convenience!) This web application details all of the courses you have joined in the past and will show your current final mark based on the work you have handed in and what has been marked. It will be also a place to share Github links with me if you have created your own repositories and would like to hand in those repositories instead. Each work you hand in, everything marked will be shown on the Course Portal and there will be a mark reflecting your work. You must create your own account to be able to join any future classes!
+		</div>
+		<div class="section" id="futureCoursesInfo">
+		    Interested in more Computer Science topics? There are a few courses offered in the future of 2018. Here are some courses that will be offered during then (please check the course links there and check the course information related to those courses).
+		</div>
+	    </div>
+	</div>
+
+	<div class="containerArea" id="lessons">
+	    <div class="containerTitle">
+		Lessons
+	    </div>
+	    <div class="containerBody">
+		<div class="webpageTable">
+		    <div class="headerRow">
+			<div class="headerCell">Week</div>
+			<div class="headerCellExtend">Lesson Topics</div>
+			<div class="headerCellExtend">Lesson Files</div>
+			<div class="headerCellExtend">Reference</div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">1</div>
+			<div class="tableCellExtend">Working with HTML</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">2</div>
+			<div class="tableCellExtend">Extending Styling in HTML: CSS</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">3</div>
+			<div class="tableCellExtend">Learning about Javascript: The Basics</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">4</div>
+			<div class="tableCellExtend">Learning about Javascript: A Tool for Web Development</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">5</div>
+			<div class="tableCellExtend">Working with Web APIs (Application Program Interface)</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">6</div>
+			<div class="tableCellExtend">More on Web APIs: Saving and Showing Data</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">7</div>
+			<div class="tableCellExtend">More on Web APIs: NoSQL Databases and User Registration and Authentication</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">8</div>
+			<div class="tableCellExtend">Web Security: A Necessity on the Interwebs</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+	            </div>
+		    <div class="tableRow">
+			<div class="tableCell">9</div>
+			<div class="tableCellExtend">AngularJS: A Simple Overview</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">10</div>
+			<div class="tableCellExtend">Final Steps: The Deployment of an Application</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		</div>
+	    </div>
+	</div>
+
+	<div class="containerArea" id="labs">
+	    <div class="containerTitle">
+		Labs
+	    </div>
+	    <div class="containerBody">
+		<div class="webpageTable">
+		    <div class="headerRow">
+			<div class="headerCell">Lab #</div>
+			<div class="headerCellExtend">Lab Topic</div>
+			<div class="headerCellExtend">Instructions</div>
+			<div class="headerCellExtend">Answer Example</div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">1</div>
+			<div class="tableCellExtend">Creating Your First Web Page (due TBA)</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">2</div>
+			<div class="tableCellExtend">Extending Your First Web Page With CSS (due TBA)</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">3</div>
+			<div class="tableCellExtend">Small Javascript Exercises (due TBA)</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">4</div>
+			<div class="tableCellExtend">A Full Frontend Experience (due TBA)</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">5</div>
+			<div class="tableCellExtend">A Beginner's Practice on API Creation: Working With The Backend (due TBA)</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">6</div>
+			<div class="tableCellExtend">Playing Around With MongoDB and Data (due TBA)</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">7</div>
+			<div class="tableCellExtend">Web Security - The Importance Of Being Safe (due TBA)</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">8</div>
+			<div class="tableCellExtend">A Small Exercise On AngularJS (due TBA)</div>
+			<div class="tableCellExtend"></div>
+			<div class="tableCellExtend"></div>
+	        </div>
+		</div>
+	    </div>
+	</div>
+
+	<div class="containerArea" id="projects">
+	    <div class="containerTitle">
+                Projects
+	    </div>
+	    <div class="containerBody">
+		<div class="webpageTable">
+		    <div class="headerRow">
+			<div class="headerCell">Project #</div>
+			<div class="headerCellExtend">Project Title</div>
+			<div class="headerCellExtend">Instructions</div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">1</div>
+			<div class="tableCellExtend">Designing A Frontend Page</div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		    <div class="tableRow">
+			<div class="tableCell">2</div>
+			<div class="tableCellExtend">Creating A Website With Functionality</div>
+			<div class="tableCellExtend"></div>
+		    </div>
+		</div>
+	    </div>
+	</div>
+
+	<div class="containerArea" id="quizzesAndPractice">
+	    <div class="containerTitle">
+		Quizzes and Practice
+	    </div>
+	    <div class="containerBody">
+	    </div>
+	</div>
+	<script src="js/blockchange.js"></script>
+    </body>
+</html>
