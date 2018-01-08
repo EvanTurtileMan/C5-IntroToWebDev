@@ -46,7 +46,12 @@ document.getElementById("githubButton").onclick = function(e) {
 };
 
 document.getElementById("coursePortalButton").onclick = function(e) {
-    console.log("TESTING!");
+    //console.log("TESTING!");
+    window.location = "https://course-portal.herokuapp.com/";
+};
+
+document.getElementById("2ndlessonsButton").onclick = function(e) {
+    navigate("lessons");
 };
 
 // For the course info section
