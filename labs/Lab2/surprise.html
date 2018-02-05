@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+    <!-- Here, you have the option to use the <style> tag-->
+    <!-- or put your work inside pizazz.css. -->
+    <!-- Refer to the pdf instructions to be sure of which-->
+    <!-- choice you want to go through with. :) -->
+    <head>
+	<title>SURPRISE!</title>
+	<link href="./pizazz.css" rel="stylesheet" type="text/css"/>
+        <style>
+
+        </style>
+    </head>
+
+    <!-- In this file, we want to change the different-->
+    <!-- borders each time we press the "SURPRISE ME!"-->
+    <!-- button. Your job is to stylize the borders using-->
+    <!-- the ID attribute. (Be creative! It doesn't have to-->
+    <!-- just be borders you know! It can be the text!-->
+    <body>
+	<script>
+            function idVal() {
+                var section = document.getElementsByClassName("box");
+		var val = section[0].id;
+                console.log(val);
+	        if(val === "zero") {
+		    val = "one";
+		} else if(val === "one") {
+		    val = "two";
+		} else if(val === "two") {
+		    val = "three";
+		} else if(val === "three") {
+		    val = "four";
+		} else if(val === "four") {
+		    val = "five";
+		} else {
+		    val = "zero";
+		}
+
+                document.getElementById("textBlock").innerHTML = `
+		    <div class="box" id=${val}>
+                        Hello world! Surprise me with a new design!
+		    </div>`;
+	    };
+	</script>
+
+	<!-- DO NOT MODIFY THE SCRIPT!-->
+	<!-- Your goal is to stylize boxes with id values of-->
+	<!-- 2, 3, 4, and 5.-->
+	<!-- ID value of 1 has already been stylized for you-->
+	<!-- on the CSS file.-->
+	<div class="container" id="textBlock">
+	    <div class="box" id="zero">
+		Hello world! Surprise me with a new design!
+	    </div>
+	</div>
+	<button class="theClicker" onclick="idVal()">Press me!</button>
+        
+    </body>
+</html>
