@@ -44,6 +44,10 @@ document.getElementById("projectsButton").onclick = function(e) {
     navigate("projects");
 };
 
+document.getElementById("softwareButton").onclick = function(e) {
+    navigate("softwareDownload");
+};
+
 document.getElementById("quizzesButton").onclick = function(e) {
     navigate("quizzesAndPractice");
     practiceInfoNavigate("empty");
