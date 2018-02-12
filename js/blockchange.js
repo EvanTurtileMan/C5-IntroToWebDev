@@ -12,6 +12,13 @@ var courseInfoNavigate = function(blockid) {
     });
 };
 
+var practiceInfoNavigate = function(blockid) {
+    var practiceBlocks = document.getElementsByClassName("practiceBlocks");
+    Array.prototype.forEach.call(practiceBlocks, function(e) {
+	e.style.display = (blockid === e.id)? "block" : "none";
+    });
+};
+
 window.onload = function() {
     navigate("main");
 };
@@ -39,6 +46,7 @@ document.getElementById("projectsButton").onclick = function(e) {
 
 document.getElementById("quizzesButton").onclick = function(e) {
     navigate("quizzesAndPractice");
+    practiceInfoNavigate("empty");
 };
 
 document.getElementById("githubButton").onclick = function(e) {
@@ -93,4 +101,44 @@ document.getElementById("coursePortalInfoButton").onclick = function(e) {
 
 document.getElementById("futureCoursesInfoButton").onclick = function(e) {
     courseInfoNavigate("futureCoursesInfo");
+};
+
+document.getElementById("week1").onclick = function(e) {
+    practiceInfoNavigate("lesson1");
+};
+
+document.getElementById("week2").onclick = function(e) {
+    practiceInfoNavigate("lesson2");
+};
+
+document.getElementById("week3").onclick = function(e) {
+    practiceInfoNavigate("lesson3");
+};
+
+document.getElementById("week4").onclick = function(e) {
+    practiceInfoNavigate("lesson4");
+};
+
+document.getElementById("week5").onclick = function(e) {
+    practiceInfoNavigate("lesson5");
+};
+
+document.getElementById("week6").onclick = function(e) {
+    practiceInfoNavigate("lesson6");
+};
+
+document.getElementById("week7").onclick = function(e) {
+    practiceInfoNavigate("lesson7");
+};
+
+document.getElementById("week8").onclick = function(e) {
+    practiceInfoNavigate("lesson8");
+};
+
+document.getElementById("week9").onclick = function(e) {
+    practiceInfoNavigate("lesson9");
+};
+
+document.getElementById("week10").onclick = function(e) {
+    practiceInfoNavigate("lesson10");
 };
